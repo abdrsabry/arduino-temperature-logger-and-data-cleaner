@@ -22,4 +22,4 @@ ms,temp_c
 1. Connect the sensor (start with TMP36).
 2. Upload the code from `tmp36/temp_logger_tmp36.ino` to your Arduino.
 3. Open the Serial Monitor at 9600 baud.
-4. Copy the output to a CSV file (or pipe it directly if using Arduino IDE Serial Plotter).
+4. Copy the output to a CSV file (or insert it directly if using Arduino IDE Serial Plotter).
