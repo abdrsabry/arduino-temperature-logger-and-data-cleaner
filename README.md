@@ -1,7 +1,7 @@
 # Arduino Temperature Logger & Data Cleaner
 
 Arduino temperature logger (TMP36/DS18B20) that streams **ms,temp_c** to CSV + a tiny Python cleaner to smooth and plot.  
-**Flow:** hardware → data → analysis → documentation.
+**Flow:** hardware to data to analysis to documentation.
 
 ## Projects
 1. **Arduino Temperature Logger** – log `(ms,temp_c)` over Serial at 9600 baud.
