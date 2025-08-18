@@ -4,6 +4,10 @@ This script is designed for cleaning and smoothing temperature logger data colle
 - `temp_plot.png` (raw vs smoothed)
 
 ## Quick start (local)
-```bash
+
 pip install pandas matplotlib
 python data_cleaner.py --in sample_data.csv --out cleaned_data.csv --window 10
+
+> The rolling mean smooths noisy sensor readings.  
+> You can adjust the window size with `--window`.
+
