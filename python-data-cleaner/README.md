@@ -3,6 +3,9 @@ This script is designed for cleaning and smoothing temperature logger data colle
 - `cleaned_data.csv`
 - `temp_plot.png` (raw vs smoothed)
 
+### Sample Data
+You can view the [sample_data.csv](./sample_data.csv) file here.
+
 ## Quick start (local)
 
 pip install pandas matplotlib
